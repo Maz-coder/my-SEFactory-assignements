@@ -6,14 +6,14 @@ salary = int(input("Enter your salary for the month: "))
 month = input("Enter the name of the month: ")
 
 
-savings_percentage = float(input("Enter the percentage for savings: "))
-rent_percentage = float(input("Enter the percentage for rent: "))
-electricity_percentage = float(input("Enter the percentage for electricity: "))
+savings_percentage = int(input("Enter the percentage for savings: "))
+rent_percentage = int(input("Enter the percentage for rent: "))
+electricity_percentage = int(input("Enter the percentage for electricity: "))
 
 
-savings_amount = (savings_percentage / 100) * salary
-rent_amount = (rent_percentage / 100) * salary
-electricity_amount = (electricity_percentage / 100) * salary
+savings_amount = int((savings_percentage / 100)) * salary
+rent_amount = int((rent_percentage / 100)) * salary
+electricity_amount = int((electricity_percentage / 100)) * salary
 
 total_expenses = savings_amount + rent_amount + electricity_amount
 
