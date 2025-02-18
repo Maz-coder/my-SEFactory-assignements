@@ -11,7 +11,7 @@ rent_percentage = int(input("Enter the percentage for rent: "))
 electricity_percentage = int(input("Enter the percentage for electricity: "))
 
 
-savings_amount = int((savings_percentage / 100)) * salary
+savings_amount = (savings_percentage / 100) * salary
 rent_amount = int((rent_percentage / 100)) * salary
 electricity_amount = int((electricity_percentage / 100)) * salary
 
