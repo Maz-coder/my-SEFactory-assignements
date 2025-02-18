@@ -29,7 +29,7 @@ salary_squared = salary ** 2
 
 
 additional_savings = 50
-savings_divided = additional_savings / savings_amount
+savings = additional_savings / savings_amount
 
 print("Your salary for the month is: ", salary)
 print("The month is: ", month)
@@ -45,4 +45,4 @@ print("The yearly rent is: ", yearly_rent)
 print("The yearly electricity is: ", yearly_electricity)
 print("The square of the salary is: ", salary_squared)
 print("The additional savings is: ", additional_savings)
-print("The savings divided by the additional savings is: ", savings_divided)
+print("The savings divided by the additional savings is: ", savings)
