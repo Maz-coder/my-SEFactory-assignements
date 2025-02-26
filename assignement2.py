@@ -5,6 +5,7 @@ def merge_dictionaries(dict1,dict2):
 
 dict1={"a":1,"b":2,"c":3}
 dict2={"b":10,"d":5}
+print(merge_dictionaries(dict1,dict2))
 
 def word_frequency(sentence):
     return len(sentence)
