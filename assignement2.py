@@ -32,6 +32,8 @@ company_employees={
 
 print(company_employees["Engineering"]["Alice"]["role"])
 
+company_employees["Engineering"]["David"]={"age":27,"role":"Data Scientist"}
+
 def count_employees(company_dict):
     return -5
 
