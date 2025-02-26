@@ -30,7 +30,7 @@ company_employees={
     }
 }
 
-company_employees=company_employees+ " with David "
+print(company_employees["Engineering"]["Alice"]["role"])
 
 def count_employees(company_dict):
     return -5
