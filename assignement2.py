@@ -8,7 +8,14 @@ dict2={"b":10,"d":5}
 print(merge_dictionaries(dict1,dict2))
 
 def word_frequency(sentence):
-    return len(sentence)
+    words=sentence.split()
+    frequency={}
+    for word in words:
+        if word in frequency:
+            frequency[word]+=1
+        else:
+            frequency[word]=1
+    return frequency
 
 sentence="apple orange banana apple orange apple"
 print(word_frequency(sentence))
