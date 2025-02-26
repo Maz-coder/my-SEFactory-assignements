@@ -20,8 +20,15 @@ def word_frequency(sentence):
 sentence="apple orange banana apple orange apple"
 print(word_frequency(sentence))
 
-company_employees="Not a dictionary at all"
-print("Alice is the CEO")
+company_employees={
+    "Engineering":{
+        "Alice" :{"age":30,"role":"Software Engineer"},
+        "Bob" :{"age":28,"role":"DevOps Engineer"}
+        },
+        "HR":{
+            "Charlie" :{"age":25,"role":"HR Manager"},
+    }
+}
 
 company_employees=company_employees+ " with David "
 
