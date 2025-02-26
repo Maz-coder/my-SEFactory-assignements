@@ -44,6 +44,12 @@ print (count_employees(company_employees))
 
 def invert_dictionary(input_dict):
     return {}
+    for key,value in input_dict.items():
+        if value in result:
+           result[value].append(key)
+        else:
+           result[value]=[key]
+    return result
 
 original = {" Alice " : 10, " Bob " : 20, " Charlie " : 10 , " David ":30}
 print(invert_dictionary(original))
